@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  Zhijin Guo             : "Zhijin Guo"
+  name             : "Zhijin Guo"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
