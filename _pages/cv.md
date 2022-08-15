@@ -1,4 +1,3 @@
-UOB Confidential
 
 # Zhijin GUO
 
@@ -57,9 +56,6 @@ Knowledge Graph Embedding 2022
 - Root mean square error is applied to evaluate the predicted rating
 - Data used are taken from https://grouplens.org/datasets/movielens/1m/
 
-
-UOB Confidential
-
 ```
 Graph Embedding 2021
 ```
@@ -79,7 +75,7 @@ Word Embedding 2021
 
 ```
 
-## WORK EXPERIENCE
+WORK EXPERIENCE
 
 ```
 North-eastern University Wuxi Research Institute, Procurement Management System Design 2019
