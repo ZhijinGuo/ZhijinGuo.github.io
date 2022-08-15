@@ -78,23 +78,6 @@ Word Embedding 2021
 - Applying PCA to project the embeddings into a two-dimensional space
 
 ```
-Text Classification 1 2020
-```
-- Aim of the project: developing and testing two text classification systems
-- Sentiment analysis, in particular to predict the sentiment of movie review, i.e. positive or negative
-    (binary classification)
-- Topic classification, to predict whether a news article is about international issues, sports or
-    business (multiclass classification)
-- Data used are taken from [http://www.cs.cornell.edu/people/pabo/movie-review-data/](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
-
-```
-Text Classification 2 2020
-```
-- Aim of the project: developing a Feedforward network for text classification
-- Use Stochastic Gradient Descent (SGD) algorithm with backpropagation to learn the weights of the
-    Neural network. Data used is a subset of the AG News Corpus
-- Re-training my network by using pre-trained embeddings (GloVe) trained on large corpora
-- Extending my Feedforward network by adding more hidden layers
 
 ## WORK EXPERIENCE
 
