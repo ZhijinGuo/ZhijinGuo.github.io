@@ -83,10 +83,7 @@ Word Embedding 2021
     word
 - Applying PCA to project the embeddings into a two-dimensional space
 
-```
-
-WORK EXPERIENCE
-
+## RESEARCH EXPEREINCE
 ```
 North-eastern University Wuxi Research Institute, Procurement Management System Design 2019
 ```
