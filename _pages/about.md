@@ -8,5 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Zhijin Guo is a second year PhD in univerisity of Bristol, his research interests are relational graph embedding and its applications.
-He is a big fan of Song Rui, who is an outstanding researcher in the Oxford University.
+Zhijin Guo is a second year PhD in univerisity of Bristol, his research interests are relational graph embedding and applications.
