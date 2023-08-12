@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Zhijin Guo is a second year PhD in univerisity of Bristol, his research interests are relational graph embedding and applications.
+Zhijin Guo is a third year PhD in univerisity of Bristol, his research interests are relational graph embedding and applications.
