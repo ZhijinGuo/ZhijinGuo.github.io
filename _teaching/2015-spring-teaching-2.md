@@ -1,5 +1,5 @@
 ---
-title: "Teaching assistant 2"
+title: "Introduction to text analytics"
 collection: teaching
 type: "Lecture"
 permalink: /teaching/2022-spring-teaching-1
