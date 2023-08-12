@@ -1,5 +1,5 @@
 ---
-title: "Teaching assiatant 1"
+title: "Introduction to Computer Programming"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
