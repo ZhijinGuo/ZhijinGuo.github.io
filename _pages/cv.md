@@ -35,6 +35,7 @@ Website: [https://zhijinguo.github.io/](https://zhijinguo.github.io/)
 ## Research Publications
 1. Z. Guo, Z. Xu, M. Lewis, and N. Cristianini, “Compositional Fusion of Signals in Data Embedding”, arXiv preprint arXiv:2311.11085, 2023.
 2. Z. Guo, Z. Xu, M. Lewis, and N. Cristianini, “Extract: Explainable Transparent Control of Bias in Embeddings”, 2023.
+3. Z. Xu, Z. Guo, and N. Cristianini, “On compositionality in data embedding,” pp. 484–496, 2023.
 
 ## Funding
 - 2023 Jean Golding Institute Seed Corn Funding
