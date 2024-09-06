@@ -1,31 +1,46 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
+<head>
     {% include head.html %}
     {% include head/custom.html %}
-  </head>
+    <!-- Add Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
 
-  <body>
-
+<body>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     {{ content }}
 
+    <!-- Map Container -->
+    <div id="map" style="height: 400px; margin: 20px 0;"></div>
+
     <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+        <footer>
+            {% include footer/custom.html %}
+            {% include footer.html %}
+        </footer>
     </div>
 
     {% include scripts.html %}
+    <!-- Add Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-  </body>
+    <!-- Initialize the map -->
+    <script>
+        // Set the map view with [latitude, longitude] and zoom level
+        var map = L.map('map').setView([51.505, -0.09], 13);
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add a marker
+        L.marker([51.505, -0.09]).addTo(map)
+            .bindPopup('A sample location.')
+            .openPopup();
+    </script>
+</body>
 </html>
