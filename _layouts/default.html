@@ -13,7 +13,7 @@
     {{ content }}
 
     <!-- Map Container -->
-    <div id="map" style="height: 400px; margin: 20px 0;"></div>
+    <div id="visitor-map" style="height: 500px; margin: 20px 0;"></div>
 
     <div class="page__footer">
         <footer>
@@ -28,19 +28,27 @@
 
     <!-- Initialize the map -->
     <script>
-        // Set the map view with [latitude, longitude] and zoom level
-        var map = L.map('map').setView([51.505, -0.09], 13);
+        // Initialize the map centered on a default location
+        var visitorMap = L.map('visitor-map').setView([20, 0], 2); // Set initial view and zoom level
 
         // Add OpenStreetMap tile layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
+            maxZoom: 18,
             attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
+        }).addTo(visitorMap);
 
-        // Add a marker
-        L.marker([51.505, -0.09]).addTo(map)
-            .bindPopup('A sample location.')
-            .openPopup();
+        // Fetch visitor location data from your server (adjust URL accordingly)
+        fetch('/api/visitor-locations') // This should be your API endpoint
+            .then(response => response.json())
+            .then(data => {
+                // Add markers for each visitor location
+                data.forEach(visitor => {
+                    L.marker([visitor.latitude, visitor.longitude])
+                        .addTo(visitorMap)
+                        .bindPopup(`Visitor from ${visitor.city}, ${visitor.country}`);
+                });
+            })
+            .catch(error => console.error('Error fetching visitor data:', error));
     </script>
 </body>
 </html>
