@@ -7,4 +7,4 @@ redirect_from:
   - /markdown.html
 ---
 
-My email address is Pa21701@bristol.ac.uk
+Zhijin Guo's email address is pa21701@bristol.ac.uk
