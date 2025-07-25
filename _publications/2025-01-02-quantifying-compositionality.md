@@ -27,4 +27,4 @@ This paper addresses the challenge that state-of-the-art Transformer and graph m
 
 **Applications**: Developed rigorous embedding-quality metrics analogous to quantitative finance signal validation, improving reliability of text-driven systematic strategy inputs.
 
-Recommended citation: Z. Guo, C. Xue, Z. Xu, et al., "Quantifying compositionality in classic and state-of-the-art embeddings," Under review by the the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.
+Recommended citation: Z. Guo, C. Xue, Z. Xu, et al., "Quantifying compositionality in classic and state-of-the-art embeddings," Under review by the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.
