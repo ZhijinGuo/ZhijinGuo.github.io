@@ -11,7 +11,27 @@ author_profile: true
 
 {% include base_path %}
 
+## Published Papers
+
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% unless post.title contains "Bridging social structure" or post.title contains "Quantifying compositionality" %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
+
+## Papers Under Review
+
+{% for post in site.publications reversed %}
+  {% if post.title contains "Quantifying compositionality" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Papers in Preparation
+
+{% for post in site.publications reversed %}
+  {% if post.title contains "Bridging social structure" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 

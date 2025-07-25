@@ -5,7 +5,7 @@ permalink: /publication/2025-01-02-quantifying-compositionality
 excerpt: 'A comprehensive evaluation of compositionality in embeddings across SBERT, GPT, LLAMA, and Knowledge Graph embeddings.'
 date: 2025-01-02
 venue: 'Under review by the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)'
-citation: 'Z. Guo, C. Xue, Z. Xu, et al., "Quantifying compositionality in classic and state-of-the-art embeddings," Under review by the the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.'
+citation: 'Z. Guo, C. Xue, Z. Xu, et al., "Quantifying compositionality in classic and state-of-the-art embeddings," Under review by the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.'
 ---
 
 This paper addresses the challenge that state-of-the-art Transformer and graph models lacked measurable limits on context-driven meaning shifts, undermining trust in novel expression generalization.
