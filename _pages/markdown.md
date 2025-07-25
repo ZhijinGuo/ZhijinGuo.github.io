@@ -7,4 +7,4 @@ redirect_from:
   - /markdown.html
 ---
 
-Zhijin Guo's email address is pa21701@bristol.ac.uk
+Zhijin Guo's email address is zhijin.guo97@gmail.com
