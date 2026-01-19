@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: academic ancestor tree
 nav: true
 nav_order: 1
 pagination:

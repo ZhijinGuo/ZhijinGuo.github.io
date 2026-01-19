@@ -6,7 +6,7 @@ subtitle: AI Research Scientist @ J.P. Morgan AI Research
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: zhijinguo.jpeg
   image_circular: true
   more_info: >
     <p>New York, USA</p>
