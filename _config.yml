@@ -3,6 +3,7 @@ description: "AI research scientist — site refresh in progress."
 url: "https://ZhijinGuo.github.io"
 baseurl: ""
 repository: "ZhijinGuo/ZhijinGuo.github.io"
+max_width: 1200px
 remote_theme: alshedivat/al-folio
 lang: en
 permalink: pretty
