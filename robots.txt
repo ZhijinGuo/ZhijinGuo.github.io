@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ZhijinGuo.github.io/sitemap.xml
