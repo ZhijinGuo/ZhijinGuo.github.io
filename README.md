@@ -1,6 +1,6 @@
 # ZhijinGuo.github.io
 
-Personal website for Zhijin Guo built with the Cayman GitHub Pages theme. The site is currently being refreshed; content will be added soon.
+Personal site for Zhijin Guo powered by the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme. Content is being refreshed; pages and collections currently contain placeholder copy.
 
 ## Local development
 

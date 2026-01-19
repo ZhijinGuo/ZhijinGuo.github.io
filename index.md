@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Zhijin Guo
+subtitle: Responsible AI & Graph Intelligence
 permalink: /
 ---
 
-# Zhijin Guo
-
-This site is getting a fresh start with a new look. Content updates are on the way!
+Welcome! This site is being rebuilt with the al-folio theme. Updated research highlights, publications, and projects will appear here soon.

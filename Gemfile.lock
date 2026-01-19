@@ -260,8 +260,10 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed
+  jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
+  jemoji
 
 BUNDLED WITH
    1.17.2

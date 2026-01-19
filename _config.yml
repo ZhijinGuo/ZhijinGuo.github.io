@@ -1,13 +1,90 @@
 title: Zhijin Guo
-description: "Personal site refresh coming soon."
+description: "AI research scientist — site refresh in progress."
 url: "https://ZhijinGuo.github.io"
 baseurl: ""
-remote_theme: pages-themes/cayman@v0.2.0
+repository: "ZhijinGuo/ZhijinGuo.github.io"
+remote_theme: alshedivat/al-folio@main
 lang: en
+permalink: pretty
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
+
+collections:
+  posts:
+    output: true
+  projects:
+    output: true
+  publications:
+    output: true
+  news:
+    output: true
+  talks:
+    output: true
+  teaching:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: news
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: teaching
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+author:
+  name: Zhijin Guo
+  role: AI Research Scientist
+  bio: "Full site content will be added soon."
+  email:
+  github: ZhijinGuo
+  linkedin: zhijin-guo
+
 social_links:
-  - { platform: github,  user_url: "https://github.com/ZhijinGuo" }
-  - { platform: linkedin, user_url: "https://www.linkedin.com/in/zhijin-guo" }
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/ZhijinGuo
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/zhijin-guo/
+
+footer_links:
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/ZhijinGuo
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/zhijin-guo/
