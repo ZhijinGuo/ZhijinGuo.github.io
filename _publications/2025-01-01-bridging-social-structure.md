@@ -2,10 +2,10 @@
 title: "Bridging social structure and discourse"
 collection: publications
 permalink: /publication/2025-01-01-bridging-social-structure
-excerpt: 'A study on bridging social network structures and discourse patterns using advanced NLP and graph neural network techniques.'
+excerpt: "A study on bridging social network structures and discourse patterns using advanced NLP and graph neural network techniques."
 date: 2025-01-01
-venue: 'Preparing to submit to the ACL Rolling Review (ARR)'
-citation: 'Z. Guo, Z. Li, B. Tyler, X. Dong, and J. Pierrehumbert, "Bridging social structure and discourse," Preparing to submit to the ACL Rolling Review (ARR), 2025.'
+venue: "Preparing to submit to the ACL Rolling Review (ARR)"
+citation: "Z. Guo, Z. Li, B. Tyler, X. Dong, and J. Pierrehumbert, \"Bridging social structure and discourse,\" preparing to submit to the ACL Rolling Review (ARR), 2025."
 ---
 
 This work addresses the challenge of Reddit communities exhibiting escalating polarization by developing a hybrid RAG pipeline that combines user-language features, fine-tuned language models, and continuous-time graph neural networks.

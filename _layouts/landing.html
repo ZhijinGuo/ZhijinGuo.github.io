@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+{% assign hero_eyebrow = page.eyebrow | default: site.author.employer | default: site.title %}
+
+<section class="landing-hero">
+  <div class="landing-hero__content">
+    <div class="landing-hero__intro">
+      {% if hero_eyebrow %}
+        <p class="landing-hero__eyebrow">{{ hero_eyebrow }}</p>
+      {% endif %}
+      <h1 class="landing-hero__title">{{ page.title | default: site.title }}</h1>
+      {% if page.subtitle or site.description %}
+        <p class="landing-hero__subtitle">{{ page.subtitle | default: site.description }}</p>
+      {% endif %}
+      <div class="landing-hero__actions">
+        <a class="btn btn-primary" href="{{ '/cv/' | relative_url }}">Download CV</a>
+        <a class="btn btn-secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
+        {% if site.author.linkedin %}
+          <a class="btn btn-linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="landing-hero__visual">
+      {% if site.author.avatar %}
+        <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name | default: site.title }}">
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% if site.data.highlights and site.data.highlights.research %}
+  <section class="landing-section">
+    <div class="landing-section__header">
+      <h2>Research Focus</h2>
+      <p>Academic rigor applied to finance: models that are explainable, resilient, and ready for peer review.</p>
+    </div>
+    <div class="landing-grid">
+      {% for item in site.data.highlights.research %}
+        <article class="landing-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.summary }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% if site.data.highlights and site.data.highlights.industry %}
+  <section class="landing-section landing-section--accent">
+    <div class="landing-section__header">
+      <h2>Industry Impact</h2>
+      <p>Shipping production-grade AI with governance from discovery to deployment.</p>
+    </div>
+    <div class="landing-grid">
+      {% for item in site.data.highlights.industry %}
+        <article class="landing-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.summary }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% assign publications_count = site.publications | size %}
+{% if publications_count > 0 %}
+  <section class="landing-section">
+    <div class="landing-section__header">
+      <h2>Recent Publications</h2>
+      <p>Selected peer-reviewed work at the intersection of trustworthy AI and financial systems.</p>
+    </div>
+    <div class="landing-list">
+      {% assign publications = site.publications | sort: 'date' | reverse %}
+      {% for pub in publications limit:3 %}
+        <article class="landing-list__item">
+          <div class="landing-list__meta">
+            <span class="landing-list__year">{{ pub.date | date: "%Y" }}</span>
+            {% if pub.venue %}<span class="landing-list__venue">{{ pub.venue }}</span>{% endif %}
+          </div>
+          <h3><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></h3>
+          {% if pub.excerpt %}
+            <p>{{ pub.excerpt }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+    <div class="landing-section__cta">
+      <a class="btn btn-secondary" href="{{ '/publications/' | relative_url }}">Explore the full publication list</a>
+    </div>
+  </section>
+{% endif %}
+
+{% assign portfolio_count = site.portfolio | size %}
+{% if portfolio_count > 0 %}
+  <section class="landing-section landing-section--accent">
+    <div class="landing-section__header">
+      <h2>Featured Industry Projects</h2>
+      <p>Collaborations with trading, compliance, and technology partners across JPMorgan Chase.</p>
+    </div>
+    <div class="landing-list">
+      {% assign projects = site.portfolio | sort: 'date' | reverse %}
+      {% for project in projects limit:3 %}
+        <article class="landing-list__item">
+          <div class="landing-list__meta">
+            {% if project.date %}<span class="landing-list__year">{{ project.date | date: "%Y" }}</span>{% endif %}
+            {% if project.tags %}<span class="landing-list__venue">{{ project.tags | join: ", " }}</span>{% endif %}
+          </div>
+          <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+          {% if project.excerpt %}
+            <p>{{ project.excerpt | strip_html }}</p>
+          {% elsif project.summary %}
+            <p>{{ project.summary }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+    <div class="landing-section__cta">
+      <a class="btn btn-primary" href="{{ '/portfolio/' | relative_url }}">See more applied work</a>
+    </div>
+  </section>
+{% endif %}
+
+<section class="landing-section landing-section--split">
+  <div class="landing-section__split-card">
+    <h2>Collaborate</h2>
+    <p>I partner with academic labs, fintech startups, and internal venture teams to fast-track responsible AI solutions. Let’s connect to scope research collaborations, product pilots, or speaking opportunities.</p>
+    <div class="landing-section__actions">
+      {% if site.author.linkedin %}
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">Message on LinkedIn</a>
+      {% endif %}
+      <a class="btn btn-secondary" href="{{ '/talks/' | relative_url }}">Invite to speak</a>
+    </div>
+  </div>
+</section>
+
+{% if page.content != "" %}
+  <section class="landing-section landing-section--content">
+    <div class="landing-content">
+      {{ content }}
+    </div>
+  </section>
+{% endif %}

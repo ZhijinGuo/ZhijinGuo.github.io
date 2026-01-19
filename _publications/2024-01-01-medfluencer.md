@@ -2,10 +2,10 @@
 title: "Medfluencer: A network representation of medical influencers' identities and discourse on social media"
 collection: publications
 permalink: /publication/2024-01-01-medfluencer
-excerpt: 'A network representation study of medical influencers and their discourse patterns on social media platforms.'
+excerpt: "A network representation study of medical influencers and their discourse patterns on social media platforms."
 date: 2024-01-01
-venue: 'epiDAMIK 2024: The 7th International Workshop on Epidemiology meets Data Mining and Knowledge Discovery at KDD 2024'
-citation: 'Z. Guo, E. Simpson, and R. Bernardi, "Medfluencer: A network representation of medical influencers' identities and discourse on social media," in epiDAMIK 2024: The 7th International Workshop on Epidemiology meets Data Mining and Knowledge Discovery at KDD 2024.'
+venue: "epiDAMIK 2024: The 7th International Workshop on Epidemiology meets Data Mining and Knowledge Discovery at KDD 2024"
+citation: "Z. Guo, E. Simpson, and R. Bernardi, \"Medfluencer: A network representation of medical influencers' identities and discourse on social media,\" in epiDAMIK 2024: The 7th International Workshop on Epidemiology meets Data Mining and Knowledge Discovery at KDD 2024."
 ---
 
 This paper presents a comprehensive network analysis of medical influencers on social media, examining how their identities and discourse patterns affect health information dissemination and public trust during health crises.

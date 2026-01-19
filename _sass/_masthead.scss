@@ -3,18 +3,22 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  border-bottom: 1px solid $border-color;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(120deg, rgba(0, 29, 61, 0.95) 0%, rgba(11, 34, 57, 0.95) 60%, rgba(2, 24, 43, 0.95) 100%);
+  border-bottom: none;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 20px rgba(5, 20, 40, 0.18);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 30;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.85em 1.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -27,6 +31,11 @@
 
     a {
       text-decoration: none;
+      color: rgba(255, 255, 255, 0.86);
+
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 }
@@ -42,12 +51,19 @@
 }
 
 .masthead__menu-item {
-  display: block;
+  display: inline-block;
   list-style-type: none;
   white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  margin-left: 1.4rem;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 0.95rem;
+    margin-left: 0;
   }
 }
