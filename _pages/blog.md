@@ -16,6 +16,14 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<div class="mb-5">
+  <p class="lead">The illustration below humbly traces the mentorship line from Gottfried Leibniz down to my own doctoral advisors &mdash; a reminder of the giants whose curiosity and rigor opened the path for my work.</p>
+  <figure class="figure w-100 text-center">
+    <img src="{{ '/assets/img/academic-ancestor.png' | relative_url }}" alt="Academic ancestor tree illustration" class="figure-img img-fluid rounded shadow-sm">
+    <figcaption class="figure-caption text-muted">Academic lineage from Leibniz to Zhijin Guo, inspired by the classical supervisor tree.</figcaption>
+  </figure>
+</div>
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
