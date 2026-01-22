@@ -9,7 +9,7 @@ profile:
   image: zhijinguo.jpeg
   image_circular: true
   more_info: >
-    <p>New York, USA</p>
+    <p>London, UK</p>
     <p><a href='https://www.linkedin.com/in/zhijin-guo/'>LinkedIn</a></p>
 
 selected_papers: false
