@@ -28,8 +28,8 @@ latest_posts:
 
 Hello! I'm an AI Research Scientist at [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai) where I develop NLP-driven quantitative finance capabilities, including GPT-based trading systems and pipelines that extract trading signals from financial reports and other market data.
 
-Previously I was a postdoctoral researcher at the University of Oxford, supervised by [Prof. Janet Pierrehumbert](https://www.cs.ox.ac.uk/people/janet.pierrehumbert/) and [Dr. Xiaowen Dong](https://www.robots.ox.ac.uk/~xd/), and a member of [Trinity College](https://www.trinity.ox.ac.uk/).
+Previously I was a postdoctoral researcher at the University of Oxford, supervised by [Prof. Janet Pierrehumbert](https://eng.ox.ac.uk/people/janet-pierrehumbert) and [Dr. Xiaowen Dong](https://eng.ox.ac.uk/people/xiaowen-dong), and a member of [Trinity College](https://www.trinity.ox.ac.uk/).
 
-Before that I completed a Ph.D. at the University of Bristol under [Prof. Nello Cristianini](https://www.bristol.ac.uk/engineering/people/nello-cristianini/), [Dr. Martha Lewis](https://marthalewis.github.io/), and [Dr. Edwin Simpson](https://www.bristol.ac.uk/people/person/edwin-simpson/).
+Before that I completed a Ph.D. at the University of Bristol under [Prof. Nello Cristianini](https://researchportal.bath.ac.uk/en/persons/nello-cristianini/), [Dr. Martha Lewis](https://marthaflinderslewis.github.io/), and [Dr. Edwin Simpson](https://www.bristol.ac.uk/people/person/Edwin-Simpson-8ec09f42-639a-4b57-9c5b-1708724e9c7a/).
 
 I bring 4+ years of hands-on experience fine-tuning large language models, embedding relational data, constructing knowledge graphs, developing retrieval-augmented generation systems, and interpreting model behavior for high-stakes financial applications.
