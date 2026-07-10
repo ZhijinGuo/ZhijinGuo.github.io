@@ -26,8 +26,6 @@ latest_posts:
   limit: 0
 ---
 
-Hello! I'm an AI Research Scientist at [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai) where I develop NLP-driven quantitative finance capabilities. My research is focused on developing **pretrained foundational trading models**, **multi-agent based trading systems**, and advanced **NLP methods** to extract actionable signals from financial reports, news, and other unstructured market data.
+Hello! I'm an AI Research Scientist at [J.P. Morgan AI Research](https://www.jpmorganchase.com/about/technology/research/ai), where I build **foundational models for markets** — pre-trained models that learn the microstructure of the market from order book data.
 
-Previously I was a postdoctoral researcher at the University of Oxford, supervised by [Prof. Janet Pierrehumbert](https://eng.ox.ac.uk/people/janet-pierrehumbert) and [Dr. Xiaowen Dong](https://eng.ox.ac.uk/people/xiaowen-dong), and a member of [Trinity College](https://www.trinity.ox.ac.uk/).
-
-Before that I completed a Ph.D. at the University of Bristol under [Prof. Nello Cristianini](https://researchportal.bath.ac.uk/en/persons/nello-cristianini/), [Dr. Martha Lewis](https://marthaflinderslewis.github.io/), and [Dr. Edwin Simpson](https://www.bristol.ac.uk/people/person/Edwin-Simpson-8ec09f42-639a-4b57-9c5b-1708724e9c7a/).
+Previously I was a postdoctoral researcher at the University of Oxford, supervised by [Prof. Janet Pierrehumbert](https://eng.ox.ac.uk/people/janet-pierrehumbert) and [Dr. Xiaowen Dong](https://eng.ox.ac.uk/people/xiaowen-dong), and a member of [Trinity College](https://www.trinity.ox.ac.uk/), bringing an NLP background to my work. Before that I completed a Ph.D. at the University of Bristol under [Prof. Nello Cristianini](https://researchportal.bath.ac.uk/en/persons/nello-cristianini/), [Dr. Martha Lewis](https://marthaflinderslewis.github.io/), and [Dr. Edwin Simpson](https://www.bristol.ac.uk/people/person/Edwin-Simpson-8ec09f42-639a-4b57-9c5b-1708724e9c7a/).
