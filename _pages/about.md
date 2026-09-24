@@ -10,6 +10,8 @@ profile:
   image_circular: true
   more_info: >
     <p>London, UK</p>
+    <p><a href='mailto:zhijin.guo97@gmail.com'>zhijin.guo97@gmail.com</a></p>
+    <p><small>My academic email is no longer monitored.</small></p>
     <p><a href='https://www.linkedin.com/in/zhijin-guo/'>LinkedIn</a></p>
 
 selected_papers: false
